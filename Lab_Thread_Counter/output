@@ -1,1 +1,50 @@
+Non-static total: 5000000
+Absolute difference: 0
+Percentage difference: 0.0000%
 
+===== TC7: UNSAFE RUNS (5 repetitions) =====
+--- Run 1 ---
+Mode: Unsafe (static long)
+Threads: 100
+Increments per thread: 50000
+Expected count: 5000000
+Static count: 4847560
+Non-static total: 5000000
+Absolute difference: 152440
+Percentage difference: 3.0488%
+--- Run 2 ---
+Mode: Unsafe (static long)
+Threads: 100
+Increments per thread: 50000
+Expected count: 5000000
+Static count: 4622049
+Non-static total: 5000000
+Absolute difference: 377951
+Percentage difference: 7.5590%
+--- Run 3 ---
+Mode: Unsafe (static long)
+Threads: 100
+Increments per thread: 50000
+Expected count: 5000000
+Static count: 4380605
+Non-static total: 5000000
+Absolute difference: 619395
+Percentage difference: 12.3879%
+--- Run 4 ---
+Mode: Unsafe (static long)
+Threads: 100
+Increments per thread: 50000
+Expected count: 5000000
+Static count: 4856305
+Non-static total: 5000000
+Absolute difference: 143695
+Percentage difference: 2.8739%
+--- Run 5 ---
+Mode: Unsafe (static long)
+Threads: 100
+Increments per thread: 50000
+Expected count: 5000000
+Static count: 4488039
+Non-static total: 5000000
+Absolute difference: 511961
+Percentage difference: 10.2392%
